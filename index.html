@@ -3,101 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Independent product specialist designing and shipping clear digital products for complex workflows.">
-  <title>Product Specialist — Selected work</title>
+  <meta name="description" content="Цифровые решения для малого и среднего бизнеса: сайты, CRM, B2B-приложения и автоматизация процессов.">
+  <title>Цифровые решения для бизнеса — портфолио</title>
   <style>
-    :root { --ink:#17212b; --muted:#66717b; --paper:#f4f6f5; --card:#ffffff; --line:#dce3e1; --lime:#c7f36a; --blue:#dfe8ff; --orange:#ffb497; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
+    :root { --ink:#18221f; --muted:#66716d; --paper:#f5f7f3; --card:#fff; --line:#dce4dd; --accent:#b8ef69; --accent-dark:#304d22; --warm:#ffe1c8; --blue:#dce8ff; }
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; }
     body { margin:0; color:var(--ink); background:var(--paper); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    a { color:inherit; }
-    .shell { width:min(1180px, calc(100% - 48px)); margin:auto; }
+    a { color:inherit; } .shell { width:min(1160px, calc(100% - 44px)); margin:auto; }
     header { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
-    .brand { display:flex; align-items:center; gap:10px; font-size:13px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
-    .mark { width:12px; height:12px; border-radius:3px; background:var(--ink); transform:rotate(45deg); }
-    nav { display:flex; gap:28px; color:var(--muted); font-size:13px; }
-    nav a { text-decoration:none; }
-    nav a:hover { color:var(--ink); }
-    .hero { display:grid; grid-template-columns:1.1fr .9fr; gap:90px; align-items:center; padding:105px 0 120px; }
-    .kicker { display:flex; align-items:center; gap:10px; margin-bottom:24px; color:var(--muted); font-size:12px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
-    .kicker:before { content:""; width:30px; height:2px; background:var(--ink); }
-    h1 { max-width:790px; margin:0; font-size:clamp(52px, 7.6vw, 100px); line-height:.93; letter-spacing:-.095em; font-weight:850; }
-    .lead { max-width:550px; margin:32px 0 34px; color:var(--muted); font-size:19px; line-height:1.55; }
+    .brand { display:flex; align-items:center; gap:11px; font-size:12px; font-weight:850; letter-spacing:.11em; text-transform:uppercase; text-decoration:none; }
+    .dot { width:12px; height:12px; border-radius:50%; background:var(--ink); box-shadow:5px 0 0 var(--accent); }
+    nav { display:flex; gap:26px; color:var(--muted); font-size:13px; } nav a { text-decoration:none; } nav a:hover { color:var(--ink); }
+    .hero { display:grid; grid-template-columns:1.05fr .95fr; gap:85px; align-items:center; padding:104px 0 116px; }
+    .eyebrow { display:inline-flex; align-items:center; gap:10px; color:var(--accent-dark); font-size:12px; font-weight:850; letter-spacing:.1em; text-transform:uppercase; }
+    .eyebrow:before { content:""; width:28px; height:2px; background:var(--accent-dark); }
+    h1 { max-width:720px; margin:22px 0 28px; font-size:clamp(50px, 7.4vw, 96px); line-height:.92; letter-spacing:-.095em; font-weight:850; }
+    .lead { max-width:570px; color:var(--muted); font-size:19px; line-height:1.55; margin:0 0 30px; }
     .actions { display:flex; flex-wrap:wrap; gap:11px; }
-    .button { display:inline-flex; align-items:center; gap:10px; padding:13px 18px; border:1px solid var(--ink); border-radius:999px; font-size:13px; font-weight:800; text-decoration:none; transition:transform .2s, background .2s; }
-    .button:hover { transform:translateY(-2px); }
-    .button.primary { background:var(--ink); color:#fff; }
-    .signal { position:relative; min-height:430px; padding:28px; border-radius:28px; background:var(--ink); overflow:hidden; }
-    .signal:before { content:""; position:absolute; width:330px; height:330px; top:-145px; right:-80px; border-radius:50%; background:var(--lime); }
-    .signal:after { content:""; position:absolute; width:240px; height:240px; bottom:-130px; left:-80px; border-radius:50%; background:var(--orange); }
-    .signal-ui { position:relative; z-index:1; height:100%; min-height:374px; display:flex; flex-direction:column; justify-content:space-between; padding:20px; border:1px solid rgba(255,255,255,.22); border-radius:18px; background:rgba(255,255,255,.08); color:#fff; backdrop-filter:blur(12px); }
-    .ui-top { display:flex; justify-content:space-between; color:#dce2e4; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
-    .ui-top b { color:var(--lime); }
-    .ui-title { max-width:270px; font-size:35px; line-height:1; letter-spacing:-.07em; font-weight:800; }
-    .bars { display:grid; gap:12px; }
-    .bar { display:flex; align-items:center; gap:12px; color:#dce2e4; font-size:11px; }
-    .track { height:7px; flex:1; border-radius:20px; background:rgba(255,255,255,.18); overflow:hidden; }
-    .fill { height:100%; border-radius:20px; background:var(--lime); }
-    .fill.one { width:88%; } .fill.two { width:67%; background:var(--orange); } .fill.three { width:78%; background:#9fb9ff; }
-    section { padding:96px 0; border-top:1px solid var(--line); }
-    .section-label { display:flex; justify-content:space-between; align-items:baseline; gap:25px; margin-bottom:38px; }
-    .section-label h2 { margin:0; font-size:clamp(38px, 5vw, 65px); line-height:.95; letter-spacing:-.08em; }
-    .section-label p { max-width:360px; margin:0; color:var(--muted); font-size:15px; line-height:1.55; }
-    .work-grid { display:grid; grid-template-columns:repeat(2, 1fr); gap:18px; }
-    .work-card { min-height:365px; display:flex; flex-direction:column; justify-content:space-between; padding:26px; border:1px solid var(--line); border-radius:22px; background:var(--card); transition:transform .2s, box-shadow .2s; }
-    .work-card:hover { transform:translateY(-5px); box-shadow:0 18px 34px rgba(23,33,43,.08); }
-    .work-card.dark { color:#fff; border-color:var(--ink); background:var(--ink); }
-    .work-card.blue { background:var(--blue); border-color:#c7d5fb; }
-    .work-card.orange { background:#ffe2d7; border-color:#f5c6b7; }
-    .work-card.lime { background:#eaf6c9; border-color:#d0e69b; }
-    .meta { display:flex; justify-content:space-between; gap:15px; font-size:11px; font-weight:850; letter-spacing:.1em; text-transform:uppercase; }
-    .meta span:last-child { opacity:.55; }
-    .work-card h3 { max-width:450px; margin:26px 0 12px; font-size:clamp(30px, 4vw, 48px); line-height:.92; letter-spacing:-.08em; }
-    .work-card p { max-width:430px; margin:0; color:var(--muted); font-size:15px; line-height:1.52; }
-    .dark p { color:#bdc6ca; }
-    .card-foot { display:flex; justify-content:space-between; align-items:center; gap:15px; margin-top:28px; font-size:13px; font-weight:800; }
-    .arrow { font-size:21px; }
-    .capabilities { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-    .capability { padding:25px; border-top:2px solid var(--ink); }
-    .capability small { display:block; margin-bottom:35px; color:var(--muted); font-size:12px; font-weight:800; }
-    .capability h3 { margin:0 0 12px; font-size:25px; letter-spacing:-.06em; }
-    .capability p { margin:0; color:var(--muted); line-height:1.55; font-size:14px; }
-    .process { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:start; }
-    .process h2 { margin:0; font-size:clamp(38px, 5vw, 65px); line-height:.95; letter-spacing:-.08em; }
-    .steps { display:grid; gap:0; }
-    .step { display:grid; grid-template-columns:42px 1fr; gap:15px; padding:20px 0; border-top:1px solid var(--line); }
-    .step:last-child { border-bottom:1px solid var(--line); }
-    .step-num { color:var(--muted); font-size:12px; font-weight:800; }
-    .step h3 { margin:0 0 6px; font-size:18px; letter-spacing:-.03em; }
-    .step p { margin:0; color:var(--muted); font-size:14px; line-height:1.5; }
-    .contact { display:flex; justify-content:space-between; align-items:end; gap:40px; }
-    .contact h2 { max-width:700px; margin:0; font-size:clamp(48px, 7vw, 92px); line-height:.9; letter-spacing:-.09em; }
-    .contact p { max-width:270px; margin:0 0 5px; color:var(--muted); line-height:1.5; font-size:15px; }
-    footer { display:flex; justify-content:space-between; padding:28px 0 42px; color:var(--muted); font-size:12px; }
-    @media (max-width:800px) { .shell { width:min(100% - 28px, 620px); } header { height:70px; } nav { gap:14px; font-size:12px; } .hero { grid-template-columns:1fr; gap:50px; padding:70px 0 80px; } h1 { font-size:61px; } .signal { min-height:340px; } .signal-ui { min-height:284px; } section { padding:70px 0; } .section-label, .process, .contact { display:grid; grid-template-columns:1fr; gap:22px; } .work-grid, .capabilities { grid-template-columns:1fr; } .work-card { min-height:300px; } footer { display:grid; gap:10px; } }
+    .button { display:inline-flex; align-items:center; gap:10px; border:1px solid var(--ink); border-radius:999px; padding:14px 19px; font-size:13px; font-weight:850; text-decoration:none; transition:.2s ease; }
+    .button:hover { transform:translateY(-2px); } .button.primary { background:var(--ink); color:#fff; }
+    .business-card { position:relative; min-height:420px; padding:28px; border-radius:28px; background:var(--ink); overflow:hidden; color:#fff; }
+    .business-card:before { content:""; position:absolute; width:330px; height:330px; top:-130px; right:-90px; border-radius:50%; background:var(--accent); }
+    .business-card:after { content:""; position:absolute; width:220px; height:220px; left:-85px; bottom:-100px; border-radius:50%; background:var(--warm); }
+    .dashboard { position:relative; z-index:1; min-height:364px; padding:20px; border:1px solid rgba(255,255,255,.2); border-radius:19px; background:rgba(255,255,255,.09); backdrop-filter:blur(12px); }
+    .dash-top { display:flex; justify-content:space-between; color:#d9e2dd; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; } .dash-top b { color:var(--accent); }
+    .dash-title { margin:42px 0 27px; font-size:31px; line-height:.98; letter-spacing:-.06em; }
+    .metric-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; } .metric { padding:16px; border-radius:14px; background:#fff; color:var(--ink); }
+    .metric small { display:block; color:var(--muted); font-size:10px; font-weight:750; } .metric strong { display:block; margin-top:8px; font-size:25px; letter-spacing:-.06em; }
+    .signal-line { display:flex; align-items:center; gap:10px; margin-top:17px; color:#d9e2dd; font-size:11px; } .signal-line i { width:9px; height:9px; border-radius:50%; background:var(--accent); }
+    .proof { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .proof div { padding:24px 22px; border-right:1px solid var(--line); } .proof div:last-child { border-right:0; } .proof strong { display:block; margin-bottom:6px; font-size:14px; } .proof span { color:var(--muted); font-size:13px; line-height:1.4; }
+    section { padding:100px 0; border-bottom:1px solid var(--line); }
+    .section-head { display:flex; justify-content:space-between; align-items:end; gap:25px; margin-bottom:37px; } .section-head h2 { margin:0; font-size:clamp(38px, 5.2vw, 66px); line-height:.93; letter-spacing:-.085em; } .section-head p { max-width:370px; color:var(--muted); font-size:15px; line-height:1.55; margin:0; }
+    .pain-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; } .pain { min-height:180px; padding:24px; border:1px solid var(--line); border-radius:18px; background:var(--card); } .pain b { display:block; margin-bottom:47px; color:var(--muted); font-size:12px; } .pain h3 { max-width:240px; margin:0; font-size:22px; line-height:1.05; letter-spacing:-.055em; }
+    .service-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; } .service { min-height:285px; padding:27px; border-radius:21px; border:1px solid var(--line); background:var(--card); } .service:nth-child(2) { background:var(--blue); border-color:#c7d7fa; } .service:nth-child(3) { background:var(--warm); border-color:#f4cbb0; } .service:nth-child(4) { background:#e9f7ca; border-color:#d0e69e; }
+    .service-meta { display:flex; justify-content:space-between; color:var(--muted); font-size:11px; font-weight:850; letter-spacing:.09em; text-transform:uppercase; } .service h3 { max-width:370px; margin:49px 0 11px; font-size:30px; line-height:.94; letter-spacing:-.07em; } .service p { max-width:430px; margin:0; color:var(--muted); font-size:14px; line-height:1.5; }
+    .work-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; } .work { min-height:305px; display:flex; flex-direction:column; justify-content:space-between; padding:25px; border-radius:21px; border:1px solid var(--line); background:var(--card); } .work.dark { color:#fff; background:var(--ink); border-color:var(--ink); } .work.blue { background:var(--blue); border-color:#c7d7fa; } .work.warm { background:var(--warm); border-color:#f4cbb0; } .work.lime { background:#e9f7ca; border-color:#d0e69e; }
+    .work-meta { display:flex; justify-content:space-between; font-size:11px; font-weight:850; letter-spacing:.09em; text-transform:uppercase; } .work-meta span:last-child { opacity:.58; } .work h3 { max-width:410px; margin:25px 0 10px; font-size:34px; line-height:.94; letter-spacing:-.07em; } .work p { max-width:430px; margin:0; color:var(--muted); font-size:14px; line-height:1.5; } .dark p { color:#c1cbc7; } .work-foot { display:flex; justify-content:space-between; gap:15px; margin-top:25px; font-size:12px; font-weight:800; } .work-foot a { text-decoration:none; }
+    .process { display:grid; grid-template-columns:.85fr 1.15fr; gap:100px; } .process h2 { margin:0; font-size:clamp(38px, 5vw, 63px); line-height:.93; letter-spacing:-.08em; } .steps { display:grid; } .step { display:grid; grid-template-columns:40px 1fr; gap:15px; padding:19px 0; border-top:1px solid var(--line); } .step:last-child { border-bottom:1px solid var(--line); } .step-num { color:var(--muted); font-size:12px; font-weight:850; } .step h3 { margin:0 0 6px; font-size:18px; letter-spacing:-.04em; } .step p { margin:0; color:var(--muted); font-size:14px; line-height:1.5; }
+    .cta { display:flex; justify-content:space-between; align-items:end; gap:40px; } .cta h2 { max-width:720px; margin:0; font-size:clamp(47px, 6.8vw, 86px); line-height:.9; letter-spacing:-.09em; } .cta-side { max-width:290px; } .cta-side p { margin:0 0 21px; color:var(--muted); font-size:15px; line-height:1.5; }
+    footer { display:flex; justify-content:space-between; gap:20px; padding:27px 0 41px; color:var(--muted); font-size:12px; }
+    @media (max-width:800px) { .shell { width:min(100% - 28px, 620px); } header { height:70px; } nav { gap:13px; font-size:11px; } .hero { grid-template-columns:1fr; gap:45px; padding:70px 0 75px; } h1 { font-size:59px; } .business-card { min-height:350px; } .dashboard { min-height:294px; } .proof, .pain-grid { grid-template-columns:1fr; } .proof div { border-right:0; border-bottom:1px solid var(--line); } .proof div:last-child { border-bottom:0; } section { padding:70px 0; } .section-head, .process, .cta { display:grid; grid-template-columns:1fr; gap:22px; } .service-grid, .work-grid { grid-template-columns:1fr; } .service { min-height:245px; } .service h3 { margin-top:38px; } footer { display:grid; gap:10px; } }
   </style>
 </head>
 <body>
   <div class="shell">
-    <header><a class="brand" href="#top" style="text-decoration:none"><span class="mark"></span> Product specialist</a><nav><a href="#work">Selected work</a><a href="#capabilities">Capabilities</a><a href="#contact">Contact</a></nav></header>
+    <header><a class="brand" href="#top"><span class="dot"></span> Digital products for business</a><nav><a href="#services">Услуги</a><a href="#work">Проекты</a><a href="#contact">Обсудить задачу</a></nav></header>
     <main id="top">
-      <section class="hero" style="border-top:0">
-        <div><div class="kicker">Independent · product design + build</div><h1>I turn complex workflows into products people can use.</h1><p class="lead">I bring structure to ambiguous ideas, design the critical path, and build focused digital experiences for teams, operators, and independent businesses.</p><div class="actions"><a class="button primary" href="#work">Explore selected work <span>↓</span></a><a class="button" href="https://github.com/credithelper094-dotcom" target="_blank" rel="noreferrer">View GitHub <span>↗</span></a></div></div>
-        <div class="signal"><div class="signal-ui"><div class="ui-top"><span>Product signal</span><b>Clear / useful</b></div><div class="ui-title">Good products reduce the distance between intent and action.</div><div class="bars"><div class="bar"><span>Clarity</span><div class="track"><div class="fill one"></div></div></div><div class="bar"><span>Focus</span><div class="track"><div class="fill two"></div></div></div><div class="bar"><span>Momentum</span><div class="track"><div class="fill three"></div></div></div></div></div></div>
+      <section class="hero" style="border-bottom:0">
+        <div><div class="eyebrow">Для владельцев малого и среднего бизнеса</div><h1>Уберите ручную работу из бизнеса.</h1><p class="lead">Создаю сайты, CRM, B2B‑приложения и внутренние инструменты, которые помогают быстрее обрабатывать клиентов, держать заказы под контролем и освобождать время для роста.</p><div class="actions"><a class="button primary" href="#contact">Обсудить задачу <span>↓</span></a><a class="button" href="#services">Что можно заказать <span>↘</span></a></div></div>
+        <div class="business-card"><div class="dashboard"><div class="dash-top"><span>Business operations</span><b>Less manual work</b></div><div class="dash-title">Когда процессы понятны, бизнесу проще расти.</div><div class="metric-grid"><div class="metric"><small>Orders in view</small><strong>24</strong></div><div class="metric"><small>Priority today</small><strong>06</strong></div></div><div class="signal-line"><i></i><span>One clear system for the next decision</span></div></div></div>
       </section>
-      <section id="work"><div class="section-label"><h2>Selected<br>work.</h2><p>A focused mix of a real B2B application and product explorations across systems, workflows, and client-facing experiences.</p></div>
-        <div class="work-grid">
-          <article class="work-card dark"><div><div class="meta"><span>01 · B2B / Android</span><span>Selected work</span></div><h3>B2B Marketplace Android</h3><p>A full rewrite of a B2B application: modern Android architecture, performance focus, offline mode, and an order queue built around operational reality.</p></div><div class="card-foot"><a href="https://github.com/credithelper094-dotcom/b2b-marketplace-android" target="_blank" rel="noreferrer" style="text-decoration:none">Open repository <span class="arrow">↗</span></a><span>Real project</span></div></article>
-          <article class="work-card blue"><div><div class="meta"><span>02 · Operations / CRM</span><span>Exploration</span></div><h3>FreelancerFlow</h3><p>A lightweight operating system for independent specialists — from lead qualification to delivery, with less context switching and more visibility.</p></div><div class="card-foot"><span>Product direction</span><span class="arrow">↗</span></div></article>
-          <article class="work-card orange"><div><div class="meta"><span>03 · Intake / Workflow</span><span>Exploration</span></div><h3>QuickBrief</h3><p>A sharper first step for client work: turning an unstructured request into a shared brief, a workable scope, and a confident next action.</p></div><div class="card-foot"><span>Service design</span><span class="arrow">↗</span></div></article>
-          <article class="work-card lime"><div><div class="meta"><span>04 · Positioning / Web</span><span>Exploration</span></div><h3>Atelier Landing</h3><p>A focused landing experience for a creative studio, built to make the offer legible and move the right visitor toward a conversation.</p></div><div class="card-foot"><span>Web experience</span><span class="arrow">↗</span></div></article>
-        </div>
-      </section>
-      <section id="capabilities"><div class="section-label"><h2>Where I<br>add leverage.</h2><p>The work is not only about screens. It is about making the product, the message, and the next decision clearer.</p></div><div class="capabilities"><div class="capability"><small>01 / Structure</small><h3>Product clarity</h3><p>Shape a vague idea into a coherent product direction, a useful MVP, and a set of decisions the team can act on.</p></div><div class="capability"><small>02 / Experience</small><h3>UX that supports work</h3><p>Map the critical path, remove friction, and create interfaces that respect how people actually operate.</p></div><div class="capability"><small>03 / Delivery</small><h3>From concept to shipped</h3><p>Connect strategy, content, design, and implementation so the handoff does not lose the original intent.</p></div></div></section>
-      <section><div class="process"><h2>A considered process for work that needs to move.</h2><div class="steps"><div class="step"><div class="step-num">01</div><div><h3>Frame the real problem</h3><p>Understand the business constraint, the user context, and what a useful outcome means.</p></div></div><div class="step"><div class="step-num">02</div><div><h3>Find the critical path</h3><p>Reduce complexity to the smallest flow that creates meaningful progress.</p></div></div><div class="step"><div class="step-num">03</div><div><h3>Make it tangible</h3><p>Design the experience and build enough of it to create shared understanding.</p></div></div><div class="step"><div class="step-num">04</div><div><h3>Improve what matters</h3><p>Use feedback to strengthen the parts of the product with the most leverage.</p></div></div></div></div></section>
-      <section id="contact"><div class="contact"><h2>Have a complex idea?<br>Let’s make it clear.</h2><div><p>Open to freelance product work, B2B systems, and focused collaborations.</p><div class="actions" style="margin-top:22px"><a class="button primary" href="https://github.com/credithelper094-dotcom" target="_blank" rel="noreferrer">Start with GitHub ↗</a></div></div></div></section>
+      <div class="proof"><div><strong>Сначала — бизнес‑задача</strong><span>Не начинаю с лишних функций и модных технологий.</span></div><div><strong>От идеи до работающего решения</strong><span>Структура, интерфейс и реализация в одном процессе.</span></div><div><strong>Понятно владельцу и команде</strong><span>Без сложных систем, которыми никто не пользуется.</span></div></div>
+      <section><div class="section-head"><h2>Знакомые<br>сигналы.</h2><p>Если бизнес растёт, ручные процессы начинают забирать внимание владельца. Цифровой инструмент должен возвращать контроль, а не добавлять ещё одну задачу.</p></div><div class="pain-grid"><div class="pain"><b>01 / Продажи</b><h3>Заявки теряются в чатах и таблицах.</h3></div><div class="pain"><b>02 / Операции</b><h3>Заказы и статусы приходится уточнять вручную.</h3></div><div class="pain"><b>03 / Команда</b><h3>Владелец остаётся единственным источником правды.</h3></div></div></section>
+      <section id="services"><div class="section-head"><h2>Что можно<br>заказать.</h2><p>Выбираем не «самое большое приложение», а решение, которое закрывает узкое место и приносит пользу бизнесу уже на первом этапе.</p></div><div class="service-grid"><article class="service"><div class="service-meta"><span>01 · Продажи</span><span>Web</span></div><h3>Сайт, который объясняет ценность и приводит заявку.</h3><p>Структура предложения, понятные услуги, сильный первый экран и короткий путь до обращения.</p></article><article class="service"><div class="service-meta"><span>02 · Управление</span><span>CRM / tool</span></div><h3>Внутренний инструмент вместо хаоса в таблицах.</h3><p>Лиды, задачи, заказы, статусы и важные данные в одном рабочем пространстве для команды.</p></article><article class="service"><div class="service-meta"><span>03 · B2B</span><span>Mobile</span></div><h3>Приложение для клиентов, продаж или полевых сотрудников.</h3><p>Мобильный сценарий с понятной навигацией, рабочими статусами и возможностью развивать продукт постепенно.</p></article><article class="service"><div class="service-meta"><span>04 · Эффективность</span><span>Automation</span></div><h3>Автоматизация повторяющихся действий.</h3><p>Убираем ручные передачи данных, делаем следующий шаг очевидным и связываем разрозненные процессы.</p></article></div></section>
+      <section id="work"><div class="section-head"><h2>Проекты<br>по делу.</h2><p>Работы показывают подход к разным бизнес‑сценариям: B2B‑операции, внутренние процессы, сбор требований и клиентский путь.</p></div><div class="work-grid"><article class="work dark"><div><div class="work-meta"><span>01 · B2B / Android</span><span>Selected work</span></div><h3>B2B Marketplace Android</h3><p>Рабочий сценарий заказов: приоритеты, статусы, поиск, offline‑режим и понятное следующее действие для операционной команды.</p></div><div class="work-foot"><a href="https://github.com/credithelper094-dotcom/b2b-marketplace-android" target="_blank" rel="noreferrer">Открыть проект ↗</a><span>Реальный репозиторий</span></div></article><article class="work blue"><div><div class="work-meta"><span>02 · Operations</span><span>Exploration</span></div><h3>FreelancerFlow</h3><p>Концепция CRM, которая помогает владельцу услуги видеть путь от лида до завершённого проекта без постоянных уточнений.</p></div><div class="work-foot"><span>CRM / workflow</span><span>↗</span></div></article><article class="work warm"><div><div class="work-meta"><span>03 · Intake</span><span>Exploration</span></div><h3>QuickBrief</h3><p>Концепция первого шага в работе с клиентом: из сообщения получается ясный объём, сроки и следующая договорённость.</p></div><div class="work-foot"><span>Service design</span><span>↗</span></div></article><article class="work lime"><div><div class="work-meta"><span>04 · Web</span><span>Exploration</span></div><h3>Atelier Landing</h3><p>Концепция сайта, который помогает креативному бизнесу объяснить предложение и перевести интерес в разговор.</p></div><div class="work-foot"><span>Web experience</span><span>↗</span></div></article></div></section>
+      <section><div class="process"><h2>Понятный процесс без бесконечных согласований.</h2><div class="steps"><div class="step"><div class="step-num">01</div><div><h3>Разбираемся, где бизнес теряет время</h3><p>Фиксируем задачу, текущий процесс и точку, где решение должно дать эффект.</p></div></div><div class="step"><div class="step-num">02</div><div><h3>Собираем первую полезную версию</h3><p>Оставляем только функции, которые помогают проверить идею и начать пользоваться.</p></div></div><div class="step"><div class="step-num">03</div><div><h3>Проектируем опыт для команды</h3><p>Делаем интерфейс и тексты понятными людям, которые будут использовать продукт каждый день.</p></div></div><div class="step"><div class="step-num">04</div><div><h3>Развиваем то, что работает</h3><p>Следующие улучшения появляются из реального использования, а не из списка пожеланий.</p></div></div></div></div></section>
+      <section id="contact"><div class="cta"><h2>Расскажите, где бизнес теряет время.</h2><div class="cta-side"><p>Опишите задачу в нескольких предложениях. Вместе определим, нужен ли вам сайт, внутренний инструмент, мобильное приложение или более простой первый шаг.</p><a class="button primary" href="https://github.com/credithelper094-dotcom" target="_blank" rel="noreferrer">Начать разговор в GitHub ↗</a></div></div></section>
     </main>
-    <footer><span>© 2026 · Product specialist portfolio</span><span>Clarity is a feature.</span></footer>
+    <footer><span>© 2026 · Digital products for business</span><span>Clarity creates momentum.</span></footer>
   </div>
 </body>
 </html>
