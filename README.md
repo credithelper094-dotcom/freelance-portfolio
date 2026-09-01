@@ -1,1 +1,59 @@
-# Freelance Product Specialist\n\nDesigning and shipping digital products for complex workflows — from B2B operations to focused client experiences.\n\n## What I help with\n\n- Turning complex processes into clear product flows\n- Designing interfaces that support real work, not just presentations\n- Structuring MVPs, internal tools, and client-facing services\n- Bridging product thinking, UX, content, and implementation\n\n## Selected work\n\n### 01 — B2B Marketplace Android\nReal project. A full rewrite of a legacy B2B application with a modern Android stack, performance improvements, offline mode, and order queue workflows.\n[View the repository](https://github.com/credithelper094-dotcom/b2b-marketplace-android)\n\n### 02 — FreelancerFlow\nProduct exploration. A calm CRM for independent specialists: lead qualification, project stages, briefs, deadlines, and communication history.\n\n### 03 — QuickBrief\nProduct exploration. A structured intake flow that turns an unorganised client message into a clear scope, budget range, timeline, and next action.\n\n### 04 — Atelier Landing\nProduct exploration. A conversion-focused landing experience for a creative studio, built around positioning, service clarity, and a shorter path to enquiry.\n\n## Approach\n\n1. Understand the business constraint and the user's real workflow.\n2. Reduce the problem to a clear structure and a useful first version.\n3. Design the experience, content, and handoff as one system.\n4. Ship, learn, and improve the parts that create the most leverage.\n\n## Stack\n\nHTML · CSS · JavaScript · Android · Product strategy · UX / UI · UX writing\n\n## Portfolio site\n\nOpen `index.html` locally or enable GitHub Pages for a public URL.\n
+# Цифровые решения для малого и среднего бизнеса
+
+Помогаю владельцам бизнеса убрать ручную работу, навести порядок в процессах и сделать путь клиента понятнее — через сайты, CRM, внутренние инструменты и B2B‑приложения.
+
+## Когда пора обсудить проект
+
+- заявки теряются в мессенджерах и таблицах;
+- статусы заказов приходится постоянно уточнять вручную;
+- команда работает по разным версиям информации;
+- сайт есть, но он не объясняет ценность и не приводит к обращению;
+- идея продукта есть, но непонятно, с чего начать без лишних расходов.
+
+## Что можно заказать
+
+### Сайт для продаж
+Позиционирование, структура предложения, понятные услуги и короткий путь от интереса до заявки.
+
+### CRM или внутренний инструмент
+Лиды, задачи, заказы, статусы и рабочие данные в одном пространстве для владельца и команды.
+
+### B2B‑приложение
+Мобильный сценарий для клиентов, продаж или полевых сотрудников — с понятной навигацией и возможностью развивать продукт поэтапно.
+
+### Автоматизация процессов
+Убираем повторяющиеся действия, соединяем разрозненные этапы и делаем следующий шаг очевидным.
+
+## Выбранные проекты
+
+### B2B Marketplace Android
+Реальный Android‑проект с Compose, Retrofit, Repository и ViewModel. В демо реализованы список заказов, поиск, фильтры статусов, приоритеты и offline‑источник данных.
+[Открыть репозиторий](https://github.com/credithelper094-dotcom/b2b-marketplace-android)
+
+### FreelancerFlow
+Product exploration: CRM для владельца услуг, чтобы видеть путь от лида до завершённого проекта.
+
+### QuickBrief
+Product exploration: превращение неструктурированного запроса клиента в ясный объём работ, сроки и следующий шаг.
+
+### Atelier Landing
+Product exploration: сайт для креативного бизнеса, который объясняет предложение и переводит интерес в разговор.
+
+## Как проходит работа
+
+1. Определяем, где бизнес теряет время или клиентов.
+2. Выбираем минимальное решение, которое можно проверить на практике.
+3. Проектируем структуру, интерфейс и тексты.
+4. Собираем рабочую версию и планируем следующие улучшения.
+
+## Почему такой подход
+
+Не предлагаю владельцу бизнеса сложную систему ради самой системы. Сначала разбираемся в процессе, затем выбираем инструмент, который команда действительно сможет использовать каждый день.
+
+## Стек
+
+HTML · CSS · JavaScript · Kotlin · Android · Jetpack Compose · Retrofit · Product thinking · UX / UI
+
+## Следующий шаг
+
+Опишите, где сейчас бизнес теряет время: заявки, заказы, команда, сайт или повторяющиеся операции. Начать разговор можно через [GitHub](https://github.com/credithelper094-dotcom).
